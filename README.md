@@ -1,5 +1,5 @@
 <h1 align="center">
-    💼 Employee Registration 💼
+    💼 Employee Registration 
 </h1>
 
 <p align="center">Desafio Docket </p>
