@@ -1,0 +1,27 @@
+.alertSucess {
+    position: absolute;
+    padding: 15px 30px;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    background: $green-light;
+    border: 2px solid $green;
+    border-radius: 40px;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: opacity 0.4s ease;
+
+    .img {
+        padding-right: 20px;
+        border-right: 1px solid $green-text;
+    }
+
+    p {
+        margin-left: 18px;
+        text-align: center;
+        color: $green-dark;
+        white-space: nowrap;
+    }
+}

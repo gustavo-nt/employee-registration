@@ -1,0 +1,432 @@
+/* line 1, ../../sass/_global.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 7, ../../sass/_global.scss */
+body {
+  position: relative;
+  height: 100vh;
+}
+
+/* line 12, ../../sass/_global.scss */
+h1, h2, h3, h4, h5, h6,
+p, span, label, input {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 17, ../../sass/_global.scss */
+body {
+  background: #F3F3F3;
+}
+
+/* line 21, ../../sass/_global.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 26, ../../sass/_global.scss */
+.wrapper main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 32, ../../sass/_global.scss */
+.hd {
+  display: none !important;
+}
+
+/* line 1, ../../sass/_header.scss */
+.headerContainer {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../assets/back-image-2.png");
+}
+/* line 7, ../../sass/_header.scss */
+.headerContainer .headerContent {
+  max-width: 80%;
+  margin: 0 auto;
+}
+/* line 11, ../../sass/_header.scss */
+.headerContainer .headerContent img {
+  margin-top: 42px;
+}
+
+/* line 1, ../../sass/_alert.scss */
+.alertSucess {
+  position: absolute;
+  padding: 15px 30px;
+  left: 50%;
+  top: 40px;
+  transform: translateX(-50%);
+  background: rgba(115, 230, 203, 0.8);
+  border: 2px solid #00B98E;
+  border-radius: 40px;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: opacity 0.4s ease;
+}
+/* line 16, ../../sass/_alert.scss */
+.alertSucess .img {
+  padding-right: 20px;
+  border-right: 1px solid #008000;
+}
+/* line 21, ../../sass/_alert.scss */
+.alertSucess p {
+  margin-left: 18px;
+  text-align: center;
+  color: #008768;
+  white-space: nowrap;
+}
+
+/* line 1, ../../sass/_index.scss */
+.homepage {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* line 6, ../../sass/_index.scss */
+.homepageContainer {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -72px;
+  margin-bottom: 100px;
+}
+
+/* line 14, ../../sass/_index.scss */
+.homepageForm {
+  max-width: 490px;
+  padding: 32px 32px;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 1px 2px rgba(46, 45, 44, 0.4);
+}
+/* line 22, ../../sass/_index.scss */
+.homepageForm h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #2E2D2C;
+}
+/* line 28, ../../sass/_index.scss */
+.homepageForm p {
+  font-size: 14px;
+  margin-top: 15px;
+  color: #2E2D2C;
+}
+
+/* line 35, ../../sass/_index.scss */
+.form {
+  margin-top: 25px;
+}
+/* line 38, ../../sass/_index.scss */
+.form legend h2 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2E2D2C;
+}
+/* line 45, ../../sass/_index.scss */
+.form fieldset {
+  border: 0;
+}
+/* line 49, ../../sass/_index.scss */
+.form .field {
+  display: flex;
+  flex-direction: column;
+}
+/* line 53, ../../sass/_index.scss */
+.form .field label {
+  display: flex;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 5px;
+  color: #2E2D2C;
+}
+/* line 60, ../../sass/_index.scss */
+.form .field label span {
+  color: #E65562;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+/* line 67, ../../sass/_index.scss */
+.form .field input {
+  height: 40px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  background: #FFF;
+  border: 1px solid #ABABAB;
+}
+/* line 77, ../../sass/_index.scss */
+.form .field input:focus {
+  border: 0;
+  outline: 2px solid #3570B2;
+}
+/* line 82, ../../sass/_index.scss */
+.form .field input::placeholder {
+  color: #D5D5D5;
+}
+/* line 87, ../../sass/_index.scss */
+.form .field span {
+  font-size: 10px;
+  color: #2E2D2C;
+}
+/* line 93, ../../sass/_index.scss */
+.form .fieldGroup {
+  display: flex;
+  align-items: center;
+}
+/* line 97, ../../sass/_index.scss */
+.form .fieldGroup > .field {
+  max-width: 140px;
+  margin-right: 32px;
+}
+/* line 103, ../../sass/_index.scss */
+.form button {
+  border: 0;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #FFF;
+  background: #3570B2;
+  box-shadow: 0px 3px 6px rgba(46, 45, 44, 0.4);
+}
+
+/* line 115, ../../sass/_index.scss */
+.homepageCandidate {
+  padding: 32px 32px;
+  max-width: 490px;
+  padding-top: 27px;
+  border-radius: 4px;
+  background: #EBF0F5;
+  border: 1px solid #C4C8CC;
+  border-top: 10px solid #C4C8CC;
+  box-shadow: 0px 1px 2px rgba(46, 45, 44, 0.4);
+}
+/* line 125, ../../sass/_index.scss */
+.homepageCandidate h1 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #403D70;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+/* line 133, ../../sass/_index.scss */
+.homepageCandidate p {
+  font-size: 14px;
+  margin-top: 15px;
+  color: #2E2D2C;
+}
+/* line 138, ../../sass/_index.scss */
+.homepageCandidate p.hint {
+  font-style: italic;
+  color: #ABABAB;
+}
+
+/* line 145, ../../sass/_index.scss */
+.content {
+  min-height: 280px;
+}
+/* line 148, ../../sass/_index.scss */
+.content .field {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* line 153, ../../sass/_index.scss */
+.content .field p {
+  margin-bottom: 2px;
+}
+/* line 157, ../../sass/_index.scss */
+.content .field span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2E2D2C;
+}
+/* line 162, ../../sass/_index.scss */
+.content .field span.none {
+  color: #ABABAB;
+}
+/* line 167, ../../sass/_index.scss */
+.content .field.name p {
+  margin-top: 0;
+}
+
+/* line 174, ../../sass/_index.scss */
+.yourProjects p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2E2D2C;
+}
+/* line 181, ../../sass/_index.scss */
+.yourProjects .carousel {
+  display: flex;
+  align-items: center;
+}
+/* line 185, ../../sass/_index.scss */
+.yourProjects .carousel .wrapperLeft {
+  cursor: pointer;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 10px solid #C4C8CC;
+}
+/* line 192, ../../sass/_index.scss */
+.yourProjects .carousel .carouselContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 196, ../../sass/_index.scss */
+.yourProjects .carousel .carouselContainer .swiper-container {
+  min-height: 126px;
+}
+/* line 200, ../../sass/_index.scss */
+.yourProjects .carousel .carouselContainer .imgCarousel {
+  width: 174px;
+  height: 120px;
+  margin-left: 6px;
+  object-fit: cover;
+  border: 2px solid #FFF;
+  box-shadow: 0px 3px 6px rgba(46, 45, 44, 0.4);
+}
+/* line 209, ../../sass/_index.scss */
+.yourProjects .carousel .carouselContainer li {
+  margin-right: 5px;
+  min-height: 128px;
+}
+/* line 215, ../../sass/_index.scss */
+.yourProjects .carousel .wrapperRight {
+  cursor: pointer;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 10px solid #C4C8CC;
+}
+
+/* line 1, ../../sass/_footer.scss */
+.footerContainer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent linear-gradient(116deg, #5A5789 0%, #2D2C45 100%);
+}
+/* line 11, ../../sass/_footer.scss */
+.footerContainer span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+/* line 1, ../../sass/_loader.scss */
+.loader {
+  display: inline-block;
+  animation: 1s .2s spin infinite;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #3570B2;
+  border-top-color: #EBF0F5;
+  border-radius: 50%;
+}
+
+/* line 11, ../../sass/_loader.scss */
+.loaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 130px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 1080px) {
+  /* line 3, ../../sass/_responsive.scss */
+  html {
+    font-size: 93.75%;
+  }
+
+  /* line 7, ../../sass/_responsive.scss */
+  body {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* line 13, ../../sass/_responsive.scss */
+  html {
+    font-size: 87.5%;
+  }
+}
+@media screen and (max-height: 790px) {
+  /* line 19, ../../sass/_responsive.scss */
+  body {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 26, ../../sass/_responsive.scss */
+  .headerContainer .headerContent {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  /* line 32, ../../sass/_responsive.scss */
+  .homepageContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* line 36, ../../sass/_responsive.scss */
+  .content {
+    min-height: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 43, ../../sass/_responsive.scss */
+  .homepage {
+    max-width: 90%;
+  }
+
+  /* line 47, ../../sass/_responsive.scss */
+  .form .fieldGroup {
+    display: block;
+  }
+
+  /* line 51, ../../sass/_responsive.scss */
+  .form .fieldGroup > .field {
+    margin-right: 0;
+    max-width: inherit;
+  }
+
+  /* line 56, ../../sass/_responsive.scss */
+  .yourProjects .carousel .carouselContainer {
+    max-width: 190px;
+  }
+  /* line 59, ../../sass/_responsive.scss */
+  .yourProjects .carousel .carouselContainer .imgcarousel {
+    width: 100%;
+  }
+  /* line 63, ../../sass/_responsive.scss */
+  .yourProjects .carousel .carouselContainer li {
+    margin-right: 0px;
+  }
+
+  /* line 68, ../../sass/_responsive.scss */
+  .alertSucess {
+    padding: 15px;
+  }
+}

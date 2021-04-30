@@ -1,0 +1,15 @@
+.headerContainer {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-image: url('../assets/back-image-2.png');
+
+    .headerContent {
+        max-width: 80%;
+        margin: 0 auto;
+
+        img {
+            margin-top: 42px;
+        }
+    }
+}
