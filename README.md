@@ -58,9 +58,6 @@ $ git clone https://github.com/gustavo-nt/employee-registration
 $ grunt watch
 ```
 
-### 📌 API
-Para mostrar os dados na tela, precisamos consumir uma api. Para criar esse software foi disponibilizada uma API com as imagens que foi adicionado ao carousel (https://picsum.photos/v2/list).
-
 ### 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
