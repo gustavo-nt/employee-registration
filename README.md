@@ -6,7 +6,7 @@
     💼 Employee Registration 
 </h1>
 
-<p align="center">Desafio Docket </p>
+<p align="center">Desafio Técnico</p>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=html&message=5.0&color=61DAFB&logo=html" />
@@ -41,7 +41,7 @@
 O Employee Registration é uma aplicação responsável por cadastros de novos funcionários em uma companhia, informando seu nome e suas principais formas de contato.
 
 ### ✅ Demonstração
-<img src="https://github.com/gustavo-nt/employee-registration/blob/master/public/assets/home.png" />
+<img src="https://github.com/gustavo-nt/employee-registration-next/blob/master/src/assets/home.png" />
 
 ### ⚙ Pré-requisitos
 
