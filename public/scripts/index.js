@@ -131,7 +131,7 @@ function setLoader() {
 setLoader();
 
 // Api
-fetch('https://picsum.photos/v2/list')
+fetch('http://localhost:3333/list')
     .then(
         function(response) {
             return response.json();

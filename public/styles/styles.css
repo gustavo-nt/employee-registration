@@ -43,7 +43,7 @@ button {
   height: 200px;
   width: 100%;
   background-size: cover;
-  background-image: url("../assets/back-image-2.png");
+  background-image: url("../assets/back-image.jpg");
 }
 /* line 7, ../../sass/_header.scss */
 .headerContainer .headerContent {
@@ -53,6 +53,8 @@ button {
 /* line 11, ../../sass/_header.scss */
 .headerContainer .headerContent img {
   margin-top: 42px;
+  max-width: 45px;
+  height: auto;
 }
 
 /* line 1, ../../sass/_alert.scss */
@@ -319,7 +321,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: transparent linear-gradient(116deg, #5A5789 0%, #2D2C45 100%);
+  background: transparent linear-gradient(116deg, #36363c 0%, #080808 100%);
 }
 /* line 11, ../../sass/_footer.scss */
 .footerContainer span {
