@@ -87,13 +87,13 @@ $ npm run server
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-* Next Version:
+✔ Next Version:
 - React
 - Typescript
 - Next
 - Node
 
-* Vanilla Version:
+✔ Vanilla Version:
 - HTML5
 - CSS3
 - JavaScript
@@ -103,7 +103,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Esse projeto foi utilizou das seguintes lib e/ou pré-processadores:
 
-* Next Version:
+✔ Next Version:
 - react-dom
 - react-input-mask
 - json-server
@@ -111,7 +111,7 @@ Esse projeto foi utilizou das seguintes lib e/ou pré-processadores:
 - axios
 - sass
 
-* Vanilla Version:
+✔ Vanilla Version:
 - sass
 - swipper
 - grunt
