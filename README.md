@@ -57,7 +57,7 @@ $ git clone https://github.com/gustavo-nt/employee-registration
 # Navegue entre as pastas
 $ cd next_version / vanilla_version
 
-+ Next Version +
++ Next Version
 
 # Instale as dependências
 $ yarn
@@ -74,7 +74,7 @@ $ yarn start
 # Rode o servidor fake
 $ yarn server
 
-+ Vanilla Version +
++ Vanilla Version 
 
 # Executar o observador do Gruntfile
 $ grunt watch
