@@ -1,5 +1,5 @@
 <h4 align="center">
-  <img src="https://github.com/gustavo-nt/employee-registration-next/blob/master/src/assets/employee.png" alt="logo" height="100"/>
+  <img src="https://github.com/gustavo-nt/employee-registration/blob/master/vanilla_version/public/assets/employee.png" alt="logo" height="100"/>
 </h4>
 
 <h1 align="center">
