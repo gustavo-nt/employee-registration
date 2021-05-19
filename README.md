@@ -40,7 +40,7 @@
 O Employee Registration é uma aplicação responsável por cadastros de novos funcionários em uma companhia, informando seu nome e suas principais formas de contato.
 
 ### ✅ Demonstração
-<img src="https://github.com/gustavo-nt/employee-registration-next/blob/master/src/assets/home.png" />
+<img src="https://github.com/gustavo-nt/employee-registration/blob/master/vanilla_version/public/assets/home.png" />
 
 ### ⚙ Pré-requisitos
 
