@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFF;
+    --black02: #F3F3F3;
+    --black20: #D5D5D5;
+    --black40: #ABABAB;
+    --black100: #2E2D2C;
+    --cold-grey10: #EBF0F5;
+    --cold-grey40: #C4C8CC;
+    --blue: #3570B2;
+    --violet: #403D70;
+    --violet-medium: #5A5789;
+    --violet-dark: #2D2C45;
+    --red: #E65562;
+    --green: #00B98E;
+    --green-text: #008000;
+    --green-dark: #008768;
+    --green-light: rgba(115, 230, 203, 0.8);
+    --box-shadow: rgba(46, 45, 44, 0.4);
+
+    --font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+}
+
+@media screen and (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+
+    body {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media screen and (max-height: 790px) {
+    body {
+        height: 100%;
+    }
+}
+
+h1, h2, h3, h4, h5, h6,
+p, span, label, input {
+    font-family: var(--font-family);
+}
+
+body {
+    background: var(--black02);
+}
+
+button {
+    cursor: pointer;
+}
+
+.hd {
+    display: none !important;
+}
