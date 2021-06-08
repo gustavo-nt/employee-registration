@@ -131,7 +131,7 @@ function setLoader() {
 setLoader();
 
 // Api
-fetch('http://localhost:3333/list')
+fetch('https://employeeregistrationapi.herokuapp.com/')
     .then(
         function(response) {
             return response.json();

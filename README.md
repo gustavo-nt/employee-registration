@@ -71,9 +71,6 @@ $ yarn dev
 # Executar a aplicação de produção
 $ yarn start
 
-# Rode o servidor fake
-$ yarn server
-
 + Vanilla Version 
 
 # Executar o observador do Gruntfile
