@@ -1,34 +1,42 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    position: relative;
-    height: 100vh;
+  position: relative;
+  height: 100vh;
 }
 
-h1, h2, h3, h4, h5, h6,
-p, span, label, input {
-    font-family: $font-family;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label,
+input {
+  font-family: $font-family;
 }
 
 body {
-    background: $black02;
+  background: $black02;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .wrapper {
-    main {
-        display: flex;
-        flex-direction: column;
-    }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .hd {
-    display: none !important;
+  display: none !important;
 }

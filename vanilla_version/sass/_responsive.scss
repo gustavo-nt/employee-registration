@@ -1,71 +1,71 @@
 // Global
 @media screen and (max-width: 1080px) {
-    html {
-        font-size: 93.75%;
-    }
+  html {
+    font-size: 93.75%;
+  }
 
-    body {
-        height: 100%;
-    }
+  body {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 720px) {
-    html {
-        font-size: 87.5%;
-    }
+  html {
+    font-size: 87.5%;
+  }
 }
 
 @media screen and (max-height: 790px) {
-    body {
-        height: 100%;
-    }
+  body {
+    height: 100%;
+  }
 }
 
 // Header
 @media screen and (max-width: 600px) {
-    .headerContainer .headerContent {
-        max-width: 90%;
-    }
+  .headerContainer .headerContent {
+    max-width: 90%;
+  }
 }
 
 @media screen and (max-width: 1080px) {
-    .homepageContainer {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .homepageContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .content {
-        min-height: 50px;
-    }
-}  
+  .content {
+    min-height: 50px;
+  }
+}
 
 // Homepage
 @media screen and (max-width: 600px) {
-    .homepage {
-        max-width: 90%;
+  .homepage {
+    max-width: 90%;
+  }
+
+  .form .fieldGroup {
+    display: block;
+  }
+
+  .form .fieldGroup > .field {
+    margin-right: 0;
+    max-width: inherit;
+  }
+
+  .yourProjects .carousel .carouselContainer {
+    max-width: 190px;
+
+    .imgcarousel {
+      width: 100%;
     }
 
-    .form .fieldGroup {
-        display: block;
+    li {
+      margin-right: 0px;
     }
+  }
 
-    .form .fieldGroup > .field {
-        margin-right: 0;
-        max-width: inherit;
-    }
-
-    .yourProjects .carousel .carouselContainer {
-        max-width: 190px;
-
-        .imgcarousel {
-            width: 100%;
-        }
-
-        li {
-            margin-right: 0px;
-        }
-    }
-
-    .alertSucess {
-        padding: 15px;
-    }
+  .alertSucess {
+    padding: 15px;
+  }
 }

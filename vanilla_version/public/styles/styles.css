@@ -262,6 +262,10 @@ button {
   margin-top: 0;
 }
 
+/* line 171, ../../sass/_index.scss */
+.yourProjects {
+  overflow: hidden;
+}
 /* line 174, ../../sass/_index.scss */
 .yourProjects p {
   font-size: 15px;

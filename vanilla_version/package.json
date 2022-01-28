@@ -10,12 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "grunt": "^1.4.0",
-    "grunt-contrib-compass": "^1.1.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
     "imask": "^6.0.7"
   },
   "devDependencies": {
+    "grunt-contrib-compass": "^1.1.1",
     "json-server": "^0.16.3"
   }
 }
