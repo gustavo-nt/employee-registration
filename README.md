@@ -88,7 +88,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ✔ Next Version:
 - React
 - Typescript
-- Next
+- Next.js
 - Node
 
 ✔ Vanilla Version:
